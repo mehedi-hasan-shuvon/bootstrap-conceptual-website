@@ -21,7 +21,8 @@ body{
 
 .banner{
     margin-top: 50px;
-    height: calc(100vh - 80px);
+    min-height: calc(100vh - 80px);
+
 }
 
 .stop-writing{
@@ -31,4 +32,5 @@ body{
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.5);
     background-blend-mode: overlay;
+    
 }
